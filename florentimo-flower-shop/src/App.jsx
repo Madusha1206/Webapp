@@ -1,26 +1,25 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
-import './App.css'
-import { Layout } from './components/Layout'
-import { Home } from './pages/Home'
-import { WeddingBouquets } from './pages/WeddingBouquets'
-import { About } from './pages/About'
-import { GiftCakes } from './pages/gift/GiftCakes'
-import { GiftToys } from './pages/gift/GiftToys'
-import { GiftFlowers } from './pages/gift/GiftFlowers'
-import { GiftPhotoFrames } from './pages/gift/GiftPhotoFrames'
-import { GiftMugs } from './pages/gift/GiftMugs'
-import { GiftMoneyBunches } from './pages/gift/GiftMoneyBunches'
-import { GiftPackages } from './pages/gift/GiftPackages'
-import { OccasionBirthday } from './pages/occasions/OccasionBirthday'
-import { OccasionAnniversary } from './pages/occasions/OccasionAnniversary'
-import { OccasionGraduation } from './pages/occasions/OccasionGraduation'
-import { OccasionLoveRomance } from './pages/occasions/OccasionLoveRomance'
-import { EventBirthdayDecors } from './pages/events/EventBirthdayDecors'
-import { EventCarSurprises } from './pages/events/EventCarSurprises'
-import { EventMarryMe } from './pages/events/EventMarryMe'
-import { EventCorporate } from './pages/events/EventCorporate'
+import { Layout } from './components/Layout.jsx'
+import { Home } from './pages/Home.jsx'
+import { WeddingBouquets } from './pages/WeddingBouquets.jsx'
+import { About } from './pages/About.jsx'
+import { GiftCakes } from './pages/gift/GiftCakes.jsx'
+import { GiftToys } from './pages/gift/GiftToys.jsx'
+import { GiftFlowers } from './pages/gift/GiftFlowers.jsx'
+import { GiftPhotoFrames } from './pages/gift/GiftPhotoFrames.jsx'
+import { GiftMugs } from './pages/gift/GiftMugs.jsx'
+import { GiftMoneyBunches } from './pages/gift/GiftMoneyBunches.jsx'
+import { GiftPackages } from './pages/gift/GiftPackages.jsx'
+import { OccasionBirthday } from './pages/occasions/OccasionBirthday.jsx'
+import { OccasionAnniversary } from './pages/occasions/OccasionAnniversary.jsx'
+import { OccasionGraduation } from './pages/occasions/OccasionGraduation.jsx'
+import { OccasionLoveRomance } from './pages/occasions/OccasionLoveRomance.jsx'
+import { EventBirthdayDecors } from './pages/events/EventBirthdayDecors.jsx'
+import { EventCarSurprises } from './pages/events/EventCarSurprises.jsx'
+import { EventMarryMe } from './pages/events/EventMarryMe.jsx'
+import { EventCorporate } from './pages/events/EventCorporate.jsx'
 
-function App() {
+export default function App() {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
@@ -58,5 +57,3 @@ function App() {
     </Routes>
   )
 }
-
-export default App
